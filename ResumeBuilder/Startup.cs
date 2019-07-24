@@ -1,14 +1,15 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using ResumeBuilder.Models;
 
 namespace WebUI
 {
-	public class Startup
+    public class Startup
 	{
 		public Startup(IConfiguration configuration)
 		{
@@ -27,7 +28,11 @@ namespace WebUI
 			{
 				configuration.RootPath = "ClientApp/dist";
 			});
-		}
+
+		    services.AddDbContext<ResumeBuilderContext>(options =>
+		            options.UseSqlServer(Configuration.GetConnectionString("ResumeBuilderContext")));
+
+        }
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env)

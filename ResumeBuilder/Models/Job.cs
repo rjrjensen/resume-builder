@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ResumeBuilder.Models
 {
-	public class Job
+    public class Job
 	{
 		public int Id { get; set; }
 		public string JobTitle { get; set; }
@@ -14,5 +11,8 @@ namespace ResumeBuilder.Models
 		public DateTime EndDate	{ get; set; }
 		public string JobDescription { get; set; }
 		public int JobTypeId { get; set; }
-	}
+
+        public int UserId { get; set; }
+        public User User { get; set; }
+    }
 }
