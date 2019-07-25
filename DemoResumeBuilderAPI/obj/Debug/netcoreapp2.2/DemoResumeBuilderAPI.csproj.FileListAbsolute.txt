@@ -1,0 +1,32 @@
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.Views.dll
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.Views.pdb
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.deps.json
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.runtimeconfig.json
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.runtimeconfig.dev.json
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.dll
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.pdb
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.dll
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.pdb
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.csprojAssemblyReference.cache
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.csproj.CoreCompileInputs.cache
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.AssemblyInfoInputs.cache
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.AssemblyInfo.cs
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.csproj.CopyComplete
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.dll
+C:\Users\junea\Desktop\Resume Builder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.pdb
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.Views.dll
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.Views.pdb
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.deps.json
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.runtimeconfig.json
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.runtimeconfig.dev.json
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.dll
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\DemoResumeBuilderAPI.pdb
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.dll
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.csproj.CoreCompileInputs.cache
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.AssemblyInfoInputs.cache
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.AssemblyInfo.cs
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.csproj.CopyComplete
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.dll
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.pdb
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\bin\Debug\netcoreapp2.2\ResumeBuilder.pdb
+C:\Users\junea\Desktop\ResumeBuilder\DemoResumeBuilderAPI\obj\Debug\netcoreapp2.2\DemoResumeBuilderAPI.csprojAssemblyReference.cache

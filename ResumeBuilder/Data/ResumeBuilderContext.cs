@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace ResumeBuilder.Models
 {
@@ -17,10 +18,9 @@ namespace ResumeBuilder.Models
 
         public DbSet<ResumeBuilder.Models.Skill> Skill { get; set; }
 
-        public DbSet<ResumeBuilder.Models.SkillType> SkillType { get; set; }
+		public DbSet<ResumeBuilder.Models.SkillType> SkillType { get; set; }
 
         public DbSet<ResumeBuilder.Models.Company> Company { get; set; }
 
-
-    }
+	}
 }

@@ -1,0 +1,1 @@
+dotnet run -p %cd%\ResumeBuilder\ResumeBuilder.csproj --no-build -c Debug

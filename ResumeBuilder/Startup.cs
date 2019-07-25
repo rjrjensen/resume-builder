@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using ResumeBuilder.Models;
+using System;
 
 namespace WebUI
 {
@@ -37,6 +38,8 @@ namespace WebUI
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 		{
+			EnsureDatabaseExists(app);
+
 			if (env.IsDevelopment())
 			{
 				app.UseDeveloperExceptionPage();
@@ -71,6 +74,17 @@ namespace WebUI
 					spa.UseAngularCliServer(npmScript: "start");
 				}
 			});
+		}
+
+		private void EnsureDatabaseExists(IApplicationBuilder app)
+		{
+			using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+			{
+				using (var context = serviceScope.ServiceProvider.GetService<ResumeBuilderContext>())
+				{
+					context.Database.Migrate();
+				}
+			}
 		}
 	}
 }

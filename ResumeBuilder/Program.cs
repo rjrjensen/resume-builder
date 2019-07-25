@@ -1,5 +1,8 @@
+using System;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using ResumeBuilder.Models;
 
 namespace WebUI
 {
@@ -7,11 +10,11 @@ namespace WebUI
 	{
 		public static void Main(string[] args)
 		{
-			CreateWebHostBuilder(args).Build().Run();
-		}
+			var host = WebHost.CreateDefaultBuilder(args)
+				.UseStartup<Startup>()
+				.Build();
 
-		public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-			WebHost.CreateDefaultBuilder(args)
-				.UseStartup<Startup>();
+			host.Run();
+		}
 	}
 }

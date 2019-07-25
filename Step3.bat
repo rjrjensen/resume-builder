@@ -1,0 +1,1 @@
+dotnet run -p %cd%\DemoResumeBuilderAPI\DemoResumeBuilderAPI.csproj  --no-build -c Debug
