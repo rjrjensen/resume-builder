@@ -1,3 +1,6 @@
+# Note
+This was a school project. I do have plans to someday make this project a reality for fun, but there is already a resume.com that accomplishes a lot of what I wanted this project to do.
+
 # Resume Builder
 
 
